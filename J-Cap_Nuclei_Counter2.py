@@ -266,5 +266,8 @@ if results is not None:
             #fob.close()
         else: # user cancel the file browser window
             print("No file chosen") 
+
+     b2=tk.Button(my_w, text="Quit", command=my_w.destroy)
+     b2.grid(row = 3, column=1)    
         my_w.mainloop()  # Keep the window open
     """
